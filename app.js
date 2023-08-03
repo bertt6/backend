@@ -12,7 +12,6 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 //Public dosyasını erişirebilir hale getiriyor.
 //path.join(__dirname, 'public') -> /Users/macos/Desktop/nodejs + /public
 
-//localhost:8000 portunda ilk açılacak yer
 app.use('/electronics', routerEtc)
 
 app.listen(8000);
